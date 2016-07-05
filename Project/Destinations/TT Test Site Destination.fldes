@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="TT Help Test Site #2"
+  Host="talktechnical.com"
+  User="MyAccountId"
+  Password=""
+  Directory="/helptest2"
+  Port=""
+  ViewUrl="http://www.talktechnical.com/helptest2/"
+  Type="ftp"
+  ConnectionMode="Passive"></CatapultDestination>

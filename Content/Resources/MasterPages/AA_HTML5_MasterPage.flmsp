@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="466" MadCap:lastWidth="1157" MadCap:conditions="General.Online">
+    <head>
+        <link href="../TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Stylesheets/AA-WebStyle.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="TopicContent">
+            <MadCap:breadcrumbsProxy />
+            <MadCap:bodyProxy />
+        </div>
+        <p style="font-size: 18pt;margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <div class="FooterTable">
+            <MadCap:dropDown class="Footer">
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot class="Footer">PDF DOWNLOADS</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody class="FooterTopicMaster">
+                    <table style="mc-table-style: url('../TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 30px;" />
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 198px;" />
+                        <tbody>
+                            <tr class="TableStyle-Simple-Body-Row1">
+                                <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                    <p class="FooterTopicMasterLastLineLeftPadding"><a href="http://docs.madcapsoftware.com/FlareV10/UserGuideA7X9.pdf" target="_blank"><img src="../Images/HTML/DownloadIcon.png" class="Hyperlinked" alt="Download" style="clear: both;vertical-align: middle;mc-float: center;" /></a>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                    <p class="FooterTopicMaster"><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideA.pdf" target="_blank" class="footermaster">Investigator User Guides (PDF)</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown class="Footer">
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot class="Footer">SUPPORT LINKS</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody class="FooterTopicMaster">
+                    <table style="mc-table-style: url('../TableStyles/Simple.css');margin-left: 0;margin-right: auto;width: 557px;" class="TableStyle-Simple" cellspacing="0">
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 653px;" />
+                        <tbody>
+                            <tr class="TableStyle-Simple-Body-Row1">
+                                <td class="TableStyle-Simple-BodyE-Column1-Row1">
+                                    <p class="FooterTopicMasterLastLineLeftPadding">
+                                        <img src="../Images/HTML/BulletWhite.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyD-Column1-Row1">
+                                    <p class="FooterTopicMaster">Support Email&#160;&#160;<MadCap:variable name="AA_DOC_Vars.EmailSupport" /></p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Simple-Body-Row1">
+                                <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                    <p class="FooterTopicMasterLeftPadding">
+                                        <img src="../Images/HTML/BulletWhite.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                    <p class="FooterTopicMasterLastLine">Technical Support&#160;Page&#160; |&#160;&#160; <a href="http://www.madcapsoftware.com/support/" target="_blank" class="footermasterurls">http://www.absoluteanalysis.com/support/</a></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown class="Footer">
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot class="Footer">COMPANY INFORMATION</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody class="FooterTopicMaster">
+                    <table style="mc-table-style: url('../TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                        <col class="TableStyle-Simple-Column-Column1" />
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 299px;" />
+                        <tbody>
+                            <tr class="TableStyle-Simple-Body-Row1">
+                                <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                    <p class="FooterTopicMasterLastLineLeftPadding">
+                                        <img src="../Images/HTML/ContactIcon.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                    <p class="FooterTopicMaster"><MadCap:variable name="AA_DOC_Vars.CompanyName" />
+                                    </p>
+                                    <p class="FooterTopicMaster"><MadCap:variable name="AA_DOC_Vars.WebAddress" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                    <p class="FooterTopicMasterLeftPadding"><MadCap:variable name="AA_DOC_Vars.PhoneNumber" />
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown class="Footer">
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot class="Footer">PRODUCT INFORMATION</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody class="Final">
+                    <table style="mc-table-style: url('../TableStyles/Simple.css');margin-left: 0;margin-right: auto;" class="TableStyle-Simple" cellspacing="0">
+                        <col class="TableStyle-Simple-Column-Column1" style="width: 29px;" />
+                        <col class="TableStyle-Simple-Column-Column1" />
+                        <tbody>
+                            <tr class="TableStyle-Simple-Body-Row1">
+                                <td class="TableStyle-Simple-BodyB-Column1-Row1">
+                                    <p class="FooterTopicMasterLeftPadding">
+                                        <img src="../Images/HTML/InfoIcon.png" />
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                                    <p class="FooterTopicMaster"><MadCap:variable name="AA_DOC_Vars.Product Group" />
+                                    </p>
+                                    <p class="FooterTopicMasterLastLine">Copyright © <MadCap:variable name="AA_DOC_Vars.CurrentYear" /> <MadCap:variable name="AA_DOC_Vars.CompanyName" /></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+    </body>
+</html>

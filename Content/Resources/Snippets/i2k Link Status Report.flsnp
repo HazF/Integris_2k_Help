@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Table Stylesheets/ShadedRowStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="width: 80%;mc-table-style: url('../Table Stylesheets/ShadedRowStyle01.css');border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: auto;margin-right: auto;" class="TableStyle-ShadedRowStyle01" cellspacing="0">
+            <col class="TableStyle-ShadedRowStyle01-Column-Column1" style="width: 25%;" />
+            <col class="TableStyle-ShadedRowStyle01-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-ShadedRowStyle01-Head-Header1">
+                    <th class="TableStyle-ShadedRowStyle01-HeadE-Column1-Header1">Status</th>
+                    <th class="TableStyle-ShadedRowStyle01-HeadD-Column1-Header1">Meaning</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">
+                        <span style="color: #ff0000;">None</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body1">Unable to determine Link State</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">
+                        <span style="color: #3cb371; font-weight: bold;">Active</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body2">The receiver has locked at the specified bit rate</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">
+                        <span style="color: #ff0000;">LossOfSync</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body1">The receiver cannot lock at the specified bit rate and hyperframe synchronization has been lost</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">
+                        <span style="color: #ff0000;">LossOfSignal</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body2">The optical power level received at the Integris system's SFP is below its minimum sensitivity. No optical signal can be detected.
+</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">
+                        <span style="color: #ff0000;">Initializing</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body1">
+Integris hardware is initializing
+</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">
+                        <span style="color: #ff0000;">NoSFP</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body2">No SFP has been detected in Integris test port 1</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">
+                        <span style="color: #ff0000;">BadSFP</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body1">The Integris system is unable to communicate with the SFP fitted in test port 1. The SFP may be faulty.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">
+                        <span style="color: #ff0000;">NoCable</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body2">No cable has been detected attached to Integris test port 1</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyB-Column1-Body1">
+                        <span style="color: #ff0000;">HwFault</span>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyA-Column1-Body1">Integris hardware fault</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="TableStyle-ShadedRowStyle01-Foot-Footer1">
+                    <td class="TableStyle-ShadedRowStyle01-FootD-Column1-Footer1" colspan="2" style="text-align: center;">
+                        <a name="st">
+                        </a>Integris Link Status Reports</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

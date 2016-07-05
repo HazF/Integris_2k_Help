@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Default.Print"
+  fileTags="AuthorFileTags.Haz Fairweather">
+  <TocEntry
+    Title="Title"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="reset"
+    StartPageLayout="false"
+    PageType="title"
+    PageNumberFormat="lower-roman"
+    ChapterNumberReset="same"
+    BreakType="pageLayout"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    BreakType="chapter"
+    PageType="right"
+    ChapterNumberReset="same"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="Notices"
+    BreakType="chapter"
+    PageType="right"
+    AutoEndOnLeftPage="enabled"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="lower-roman">
+    <TocEntry
+      Title="Document Information"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Document Conventions"
+      Link="/Content/01_Introduction Topics/d.Document_Conventions.htm" />
+    <TocEntry
+      Title="Technical Support"
+      Link="/Content/01_Introduction Topics/e.Tech Support &amp; Warranty.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Powering On the System"
+    BreakType="chapter"
+    PageType="right"
+    StartSection="false"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    PageNumberFormat="decimal"
+    PageNumber="1"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Connecting to AC Power" />
+  </TocEntry>
+  <TocEntry
+    Title="Integris 2000"
+    Link="/Content/2000-Help/a.Help Introduction.htm"
+    BreakType="chapter"
+    PageType="right"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Connecting Up"
+      Link="/Content/2000-Help/b4.Connecting_2k.htm" />
+    <TocEntry
+      Title="Starting Integris 2000"
+      Link="/Content/2000-Help/b1.Starting &amp; Closing Integris 2000.htm"></TocEntry>
+    <TocEntry
+      Title="Installation Test Sequence"
+      Link="/Content/2000-Help/z.Installation Test-(OLD).htm" />
+    <TocEntry
+      Title="Troubleshooting"
+      Link="/Content/2000-Help/f2b.Troubleshooting.htm" />
+    <TocEntry
+      Title="Setting the Link Rate"
+      Link="/Content/2000-Help/c1.Set Link Rate.htm" />
+    <TocEntry
+      Title="Loading a Configuration File"
+      Link="/Content/2000-Help/c2.Load Config File.htm" />
+    <TocEntry
+      Title="Viewing Physical Layer Information"
+      Link="/Content/2000-Help/c4.SFP Info.htm" />
+    <TocEntry
+      Title="Resetting Integris to Default Settings"
+      Link="/Content/2000-Help/c7.Reset.htm" />
+    <TocEntry
+      Title="Accessing Integris Help"
+      Link="/Content/2000-Help/c5a.Help.htm" />
+    <TocEntry
+      Title="Checking the Software Version"
+      Link="/Content/2000-Help/c6.About.htm" />
+    <TocEntry
+      Title="Testing a Remote Radio Head"
+      Link="/Content/2000-Help/z-old.Tests-RRH-Obsolete.htm" />
+    <TocEntry
+      Title="Testing a Cable"
+      Link="/Content/2000-Help/z-old.Tests-Cable-Obsolete.htm" />
+    <TocEntry
+      Title="Testing an SFP"
+      Link="/Content/2000-Help/z.Tests-SFP.htm" />
+    <TocEntry
+      Title="Monitor Mode"
+      Link="/Content/2000-Help/f5.Monitor.htm"></TocEntry>
+    <TocEntry
+      Title="Working with Test Reports"
+      Link="/Content/2000-Help/f6.Reports.htm" />
+    <TocEntry
+      Title="Configuation File Descriptions"
+      Link="/Content/2000-Help/x3.Config File descriptions.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Integris 3000"
+    BreakType="chapter"
+    PageType="right"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Connecting to the RAN" />
+    <TocEntry
+      Title="Starting Integris 3000" />
+    <TocEntry
+      Title="The Integris 3000 Display"></TocEntry>
+    <TocEntry
+      Title="Quick Setup for Integris 3000" />
+    <TocEntry
+      Title="The Menu Selector" />
+    <TocEntry
+      Title="Changing Display Resolution" />
+    <TocEntry
+      Title="System Reset"></TocEntry>
+    <TocEntry
+      Title="The System Status Pane"></TocEntry>
+    <TocEntry
+      Title="Setting the Link Rate"></TocEntry>
+    <TocEntry
+      Title="Setting the AxC#" />
+    <TocEntry
+      Title="Loading a Configuration File" />
+    <TocEntry
+      Title="Selecting the Graph Type" />
+    <TocEntry
+      Title="Spectrum Graph Setup" />
+    <TocEntry
+      Title="Spectrum Graph Values" />
+    <TocEntry
+      Title="Waterfall Graph Setup"></TocEntry>
+    <TocEntry
+      Title="Using Multiple Graphs"></TocEntry>
+    <TocEntry
+      Title="Using Markers" />
+    <TocEntry
+      Title="Snapping Markers at a Location" />
+    <TocEntry
+      Title="The Marker Table"></TocEntry>
+    <TocEntry
+      Title="Saving Display Settings" />
+    <TocEntry
+      Title="Screen Snapshot"></TocEntry>
+    <TocEntry
+      Title="Recording Graphs">
+      <TocEntry
+        Title="End"
+        BreakType="pageLayout"
+        PageType="right"
+        ChapterNumberReset="same"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

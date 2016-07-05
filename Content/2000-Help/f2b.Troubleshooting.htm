@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3345" MadCap:lastWidth="1145">
+    <head>
+        <link href="../Resources/Table Stylesheets/NoteBoxStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Connecting Up</title>
+    </head>
+    <body>
+        <h2 class="AA_h2_ChandPara" MadCap:conditions="Default.Print">Troubleshooting a RAN Installation</h2>
+        <h2 class="AA_Online_H2" MadCap:conditions="Default.Screen">Troubleshooting a RAN Installation</h2>
+        <p>If a radio head installation test fails the initial  <i>Integris 2000</i> tests then there is a logical debug sequence to follow to locate the component giving the problem. This section suggests a sequence of actions and details the required tests. </p>
+        <h3 class="Yellow-Highlight">Test local SFP</h3>
+        <p>If the Install test fails at the physical layer phase of the test a logical start point is to test the local SFP</p>
+        <p>&#160;</p>
+        <p>With the current SFP still in Integris test port 1:</p>
+        <ol>
+            <li>Fit a known good loopback cable to the SFP being tested (See <MadCap:xref href="#Loopback">Loopback Connection</MadCap:xref>).</li>
+            <li>Open the <i style="font-weight: bold; font-style: normal;">Emulate</i> menu and select <i style="font-weight: bold; font-style: normal;">New</i>. </li>
+            <li>Now click on <b>Run</b> from the same menu (or press the <b>F5</b> key), </li>
+        </ol>
+        <table style="margin-left: auto;margin-right: auto;">
+            <col />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">
+                        <img src="../Resources/Images/Connecting_for_SFP_Tests.jpg" style="height: auto;width: 250px;" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01"><a name="SFP"></a>Inserting an SFP for testing</p>
+                        <p class="FigNum01">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/Generic/Laptop loopback setup-NoBackg.jpg" style="height: auto;width: 500px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="Loopback"></a>Loopback Connection</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>If this (local) SFP passes the SFP test, remove the SFP in the radio head and insert that into the Integris test port (See <MadCap:xref href="#SFP">Inserting an SFP for testing</MadCap:xref>). Fit the loopback cable and repeat the test.</p>
+        <p>&#160;</p>
+        <p>If this SFP passes then replace it into the radio head. You now know you have good SFPs in the Integris test port and the radio head.</p>
+        <h3 class="Yellow-Highlight">Testing the Cable </h3>
+        <p>The next logical step is a test of the cable linking the Integris system to the Radio Head. This procedure assumes the SFP currently in the Integris test port has passed the previous SFP test.</p>
+        <p>&#160;</p>
+        <ol>
+            <li>Insert one end of the cable into Integris test port 1</li>
+            <li>
+                <p>Fit a looback to the far end of the cable (See <MadCap:xref href="#Loopback">Loopback Connection</MadCap:xref>). An alternative if no loopback
+			 connector is available is to remove one of the optical fibers from the end clip that makes up the duplex cable, and insert opposite
+				 ends of the same fiber into the TX and RX connectors of Integris test port.</p>
+            </li>
+            <li> Open the <b>Emulate</b> menu and select 
+		<b>New</b>. </li>
+            <li>Now click on <b>Run</b> from the same menu (or press the <b>F5</b> key).</li>
+        </ol>
+        <p>&#160;</p>
+        <p>If the radio head is at the top of the tower and connected to the BBU by a multi-segment cable, it is advisable to fit the loop-back at the lowest connection in the link, then progressively work your way up the tower testing as you go.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Click here to see how to test a multi-segment cable:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <ol>
+                    <li>Insert one end of the cable into the Integris test port</li>
+                    <li>Fit a looback to the far end of the cable. (See <MadCap:xref href="#Loopback">Loop-back Connection</MadCap:xref>)<p>&#160;</p><p>An alternative if no loop-back connector is available is to remove one of the optical fibers from the end clip that makes up the
+					duplex cable, and insert opposite ends of the same fiber into the TX and RX connectors of Integris test port.</p><p>&#160;</p></li>
+                    <li> Open the <b>Emulate</b> menu and select 
+					<b>New</b>. </li>
+                    <li>Now click on <b>Run</b> from the same menu (or press the <b>F5</b> key).</li>
+                    <li>
+                        <p>If the test passes then move the loop-back to the end of the next cable sector and retest.</p>
+                        <p>&#160;</p>
+                        <p>If all segments pass testing but still no reply is received from the radio head, then consider that on one of the segments the TX and RX fibers may have become crossed.</p>
+                        <p>&#160;</p>
+                        <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+                            <col />
+                            <col />
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <img src="../Resources/Images/tower_laptop_loopback 1.png" style="width: 250px;height: auto;" />
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <img src="../Resources/Images/tower_laptop_loopback 2.png" style="width: 250px;height: auto;" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="FigNum01" style="text-align: center;">Loop-back position 1</p>
+                                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                                    </td>
+                                    <td>
+                                        <p class="FigNum01" style="text-align: center;">Loop-back position 2</p>
+                                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li>Continue until you have reached the radio head connector.</li>
+                </ol>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">
+                                <img src="../Resources/Images/tower_laptop_loopback 3.png" style="width: 250px;height: auto;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="FigNum01" style="text-align: center;">Loop-back positioned at the radio head connector</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3 class="Yellow-Highlight">Repeat the test at Ground Level</h3>
+        <p>Bringing the Radio Head back to ground level makes replacing components, and unit configuration easier.</p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/2k_RRH_Monitoring-noback.png" MadCap:mediastyle="@media print { height: auto;width: 350px; }" style="margin-top: 10px;margin-bottom: 10px;height: auto;width: 350px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="Conn"></a>Connecting <i>Integris 2000</i> to an RRH</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>To test a radio head installation connect the cable assembly to the Integris test port. (See <MadCap:xref href="#Conn">Connecting Integris 2000 to an RRH</MadCap:xref>)</p>
+        <ol>
+            <li>Take a full duplex cable and connect one end to the  RRH</li>
+            <li>
+                <p>Connect the other end of the cable to the SFP in the Integris System test port. (See <MadCap:xref href="#port1">Integris 2000 Test Port 1
+</MadCap:xref>)</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+                    <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                            <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1">
+                                <p><b>Note:</b> you MUST install exactly the same SFPs  into the Integris test port  as used in RRH &amp; BBU. If there is any doubt as to the SFP's specification, remove the SFP from the BBU and use that in Integris test port 1                 </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                Repeat the Integris <i>Install</i> test sequence by 
+            opening the <b>Emulate</b> menu and selecting <b>New</b>. </li>
+            <li>Now click on <b>Run</b> from the same menu (or press the <b>F5</b> key),
+                
+                  </li>
+        </ol>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/Connecting_for_RRH_Tests.jpg" style="width: 250px;height: auto;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="port1"></a>Integris 2000 Test Port 1
+</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Yellow-Highlight">Monitor Mode Testing</h3>
+        <p>Radio head monitoring is a long term test designed to exercise the  radio head over a period of time. This allows installation crews time to adjust or modify the installation. (See also <MadCap:xref href="f5.Monitor.htm">Monitor Mode</MadCap:xref>)</p>
+        <p>&#160;</p>
+        <p>To monitor radio head operation:</p>
+        <ol>
+            <li>Select the <b>Emulate</b> menu, and click on <b>New</b>. </li>
+            <li>Click on the <b>Monitor</b> menu option (Optionally press <b>CTRL&#160;+&#160;M</b>). If using Classic menus, the text under the <i>MONITOR</i> button changes to a green <b style="color: #228b22;">ON</b>.</li>
+            <li>
+                <p>Click <b>Run</b> (Optionally press <b>F5</b>).</p>
+                <p>The word "<i>Monitoring</i>"&#160;will appear in yellow at the top right of the window to indicate
+				 status. The test results pane shows the current values for the test.</p>
+            </li>
+            <li>To stop monitoring, select the <b>Test</b> menu and click on <b>Stop</b></li>
+        </ol>
+        <p MadCap:conditions="Default.Screen">&#160;</p>
+    </body>
+</html>

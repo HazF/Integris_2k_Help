@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Screen"
+    BackgroundColor="#0e06f7" />
+  <ConditionTag
+    Comment=""
+    Name="Print"
+    BackgroundColor="#f60606" />
+  <ConditionTag
+    BackgroundColor="#fbdd24"
+    Name="QSG"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff08"
+    Name="HTML5"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#b400ff"
+    Name="Debug HTML"
+    Comment="" />
+</CatapultConditionTagSet>

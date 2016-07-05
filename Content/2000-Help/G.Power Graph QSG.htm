@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1969" MadCap:lastWidth="1171">
+    <head><title>Power Graph</title>
+    </head>
+    <body style="text-align: center;">
+        <h2 class="AA_h2_ChandPara" style="text-align: left;" MadCap:conditions="Default.Print">c</h2>
+        <p style="text-align: left;">In addition to the installation tests, Integris 2000 can display  'digital' spectrum graphs, including power spectrum, persistence and/or waterfall graphs derived from the IQ data from the Radio head and carried over a CPRI link.</p>
+        <p style="text-align: left;"><b>Step 1: Opening a graph &amp; locating on screen</b>
+        </p>
+        <p style="vertical-align: top;text-align: left;">To display a power graph:</p>
+        <ol>
+            <li style="text-align: left;">If using the Classic menu system, open the <b>Analyze</b> menu.</li>
+            <li>
+                <p style="text-align: left;">Click on the <b>Graph menu</b> menu and select <b>New</b>. <MadCap:xref href="#gra" class="ListOfPageNumber">(See  Fig 1.1 )</MadCap:xref></p>
+                <table style="margin-left: auto;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+                    <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+                    <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                        <td style="text-align: center;width: 500px;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td><![CDATA[  ]]></tr>
+                    <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                        <td style="text-align: center;width: 500px;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">
+                            <p class="FigNum-Initialize"><a name="gra"></a>Opening a Graph view       </p>
+                        </td><![CDATA[  ]]></tr>
+                </table>
+            </li>
+            <li>
+                <p style="text-align: left;">On the <i>Create Graph</i> dialog box that opens, select the graph <b>Source</b>. </p>
+                <p style="text-align: left;">Integris 2000 allows you to select the graph type or a combination of graph types. Each type  supports a different aspect of signal analysis. <MadCap:xref href="#type" class="ListOfPageNumber">(See  Fig 1.2 )</MadCap:xref></p>
+                <p style="text-align: left;"><b>Spectrum</b>: The power magnitude of the input signal is displayed across the set frequency range (See also <MadCap:xref href="g1a.Spectrum Graph Setup.htm" class="XREF_Range">"Spectrum Graph Configuration" on page&#160;1)</MadCap:xref></p>
+                <p style="text-align: left;"><b>Waterfall</b>: Spectrogram giving a visual representation of frequency in the X axis against time in the Y axis </p>
+                <p style="text-align: left;"><b>Persistence</b>: Power magnitude is plotted against frequency, with color denoting the percentage of time a plot point is placed at the current location</p>
+                <table style="margin-left: auto;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');width: 100%;" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+                    <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" style="width: 50%;" />
+                    <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" style="width: 50%;" />
+                    <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                        <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyE-Column1-Body1">&#160;</td><![CDATA[  ]]><td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td><![CDATA[  ]]></tr>
+                    <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                        <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyE-Column1-Body1">
+                            <p class="FigNum01"><a name="type"></a>Selecting a graph type        </p>
+                        </td><![CDATA[  ]]><td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1"><p class="FigNum01"><a name="sce"></a>Selecting the graph source        </p></td><![CDATA[  ]]></tr>
+                </table>
+            </li>
+            <li>
+                <p style="vertical-align: top;text-align: left;">Select the graph <b>Source</b>. You can select live CPRI data from <i>Integris</i> ports 1 or 2,
+				 or playback from a file. <MadCap:xref href="#sce" class="ListOfPageNumber">(See  Fig 1.3 )</MadCap:xref></p>
+            </li>
+            <li>
+                <p style="vertical-align: top;text-align: left;">Click on <b>Ok</b></p>
+            </li>
+        </ol>
+        <p style="vertical-align: top; text-align: left;"><b>Step 2: Selecting the mapping information</b>
+        </p>
+        <p style="vertical-align: top; text-align: left;">If you have selected a live source, you must now select the file containing the mapping information to convert the signal data into a meaningful graph.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;                  mc-table-style:          url('../Resources/Table Stylesheets/InfoBoxStyle01.css');" class="TableStyle-InfoBoxStyle01" cellspacing="0">
+            <col class="TableStyle-InfoBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-InfoBoxStyle01-Body-Body1">
+                    <td class="TableStyle-InfoBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>Information:</b>
+			 Integris 2000 mapping files contain information on frequency, bandwidth and other information required
+			 to decode the graph from the CPRI stream.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="vertical-align: top;text-align: left;">To select a <i>Mapping</i> file:</p>
+        <ol>
+            <li style="vertical-align: top;text-align: left;">If using the <i>Classic</i> menus, select the <b>Analyze</b> menu</li>
+            <li style="vertical-align: top; text-align: left;">Go to the <b>Graph</b> menu and click on  <b>Mapping</b>.</li>
+            <li style="vertical-align: top;text-align: left;">A list of the available mapping files will appear similar to<MadCap:xref href="#map" class="TOCPageNumber"> Fig 1.2 </MadCap:xref><table style="margin-left: auto;margin-right: auto;"><col /><tr><td style="text-align: center;width: 500px;">&#160;</td></tr><tr><td style="text-align: center;width: 500px;"><p class="FigNum01"><a name="map"></a>Selecting a graph source        </p></td></tr></table></li>
+            <li style="vertical-align: top; text-align: left;">Select the desired Graph source from the list</li>
+        </ol>
+        <p style="text-align: left;">Once the correct source and mapping file have been selected a graph view should appear on the screen. </p>
+        <table style="margin-left: auto;margin-right: auto;">
+            <col style="width: 366px;">
+            </col>
+            <tr>
+                <td style="text-align: center;">&#160;</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <p class="FigNum01">Spectrum graph              </p>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <p style="text-align: left;"><b>Step 3: Placing a marker</b>
+        </p>
+        <p style="text-align: left;">Integris 2000 graphs have five optional markers that can be used to track frequency offsets and power values on a spectrum graph. </p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+            <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                    <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>Note:</b>
+			 Markers can only be used with Power Spectrum graphs</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: left;">To place a marker on the graph:</p>
+        <ol>
+            <li style="text-align: left;">Move the mouse pointer close to the peak you want the marker to appear on.</li>
+            <li style="text-align: left;"> Right click and hover over the <b>Snap Marker</b> menu item. Select the desired marker number from the menu that appears.</li>
+            <li style="text-align: left;">The marker will locate the highest amplitude peak within 130 kHz of the mouse pointer.</li>
+        </ol>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+            <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01">Snapping a marker onto a location</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: left;"><b>Step 4: Using the <i>Marker Table</i></b>
+        </p>
+        <p style="text-align: left;">When enabled, the <i>Marker Table</i> is located below the on-screen graph(s) and displays amplitude and frequency offset values for each of the five markers.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01"><a name="Mark"></a>Markers &amp; the Marker Table</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 style="text-align: left;">To enable the <i>Markers Table</i> using the <i>Modern Menu</i> system, Either:</h3>
+        <p style="text-align: left;">Open the <b>Markers</b> menu and click <b>Show Table</b>. The Markers Table opens at the bottom of the screen under the graph(s)</p>
+        <p style="text-align: left;">or</p>
+        <ol>
+            <li style="text-align: left;">Open the <b>Markers</b> menu and click on <b>Configure</b>. The Markers control panel opens
+			 <MadCap:xref href="#panel" class="ListOfPageNumber">(See  Fig 1.1 )</MadCap:xref><table style="width: 100%;margin-left: 0;margin-right: auto;"><col /><tbody><tr><td style="text-align: center;">&#160;</td></tr><tr><td><p class="FigNum01"><a name="panel"></a>The Markers control panel</p></td></tr></tbody></table></li>
+            <li style="text-align: left;">Set one marker as a reference by clicking to select it in the <b>Ref</b> column.</li>
+        </ol>
+        <h3 style="text-align: left;">To enable the <i>Markers Table</i> using the <i>Classic Menu</i> system:</h3>
+        <ol>
+            <li style="text-align: left;">Make sure the Analyze menu is selected</li>
+            <li style="text-align: left;">On the <b>Markers</b> menu, click on <b>Table</b> to toggle the <i>Marker Table</i> on and off. The Markers Table opens at the bottom of the screen under the graph(s).</li>
+            <li style="text-align: left;">Set one marker as a reference by clicking on <b>Reference</b> and selecting the desired marker number.</li>
+        </ol>
+        <h3 style="text-align: left;">Table Terms</h3>
+        <table style="margin-left: auto; margin-right: auto;">
+            <col style="width: 5%;" />
+            <col style="width: 95%;" />
+            <tbody>
+                <tr>
+                    <td style="text-align: left;">&#160;</td>
+                    <td>
+                        <ul>
+                            <li style="text-align: left;">The <i>Frequency</i> and <i>Power</i> columns show the current values for this pointer.</li>
+                            <li style="text-align: left;">The <b style="font-style: italic; font-weight: normal;">Δ Power</b> column displays the difference between the power value for the reference marker (shown as a 0.000 db value) and the power value for this marker</li>
+                            <li style="text-align: left;">The <i>Δ Frequency</i> displays the difference between the frequency offset of the reference marker (shown in the Δ Power column as a 0.000 db value) and the frequency offset for this marker</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="AA_h2_ChandPara" MadCap:conditions="Default.Print" style="text-align: left;">Closing the Graph</h2>
+        <p style="text-align: left;">You can close the current graph by right clicking on it and selecting <b>Close View</b></p>
+        <p style="text-align: left;">Alternatively open the <b>Trace</b> menu and click on <b>All Off</b>. </p>
+    </body>
+</html>

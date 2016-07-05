@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3949" MadCap:lastWidth="1171">
+    <head>
+        <link href="../Resources/Table Stylesheets/InfoBoxStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Table Stylesheets/NoteBoxStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Connecting Up</title>
+    </head>
+    <body>
+        <h2 class="AA_h2_ChandPara" MadCap:conditions="Default.Print">Connecting to the RAN</h2>
+        <h2 class="AA_Online_H2" MadCap:conditions="Default.Screen">Connecting to the RAN</h2>
+        <p>&#160;</p>
+        <p><i>Integris 2000</i> is designed to exercise the radio head along with its associated cabling and connectors, so must be connected in place of a BBU.</p>
+        <p>&#160;</p>
+        <p>Do not confuse the SFP referred to in link status reports with the SFP information in the Install tests.</p>
+        <p>&#160;</p>
+        <table style="width: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+            <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                    <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;">
+                        <p><b>NOTE:</b> you <i>MUST</i> install exactly the same SFPs  into the Integris test port  as used in RRH &amp; BBU, and connect using an identical cable type.<![CDATA[                ]]></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/InfoBoxStyle01.css');" class="TableStyle-InfoBoxStyle01" cellspacing="0">
+            <col class="TableStyle-InfoBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-InfoBoxStyle01-Body-Body1">
+                    <td class="TableStyle-InfoBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>Information:</b> <i>Integris</i> ports use Small Form Factor Pluggable (SFP) devices to provide signal conversion of the optical signal on the cable to the electrical signals used inside the Integris system. SFP's are available for many types of physical connection, such as single mode or multi-mode optical cabling, and the specification of SFP's is controlled by a standard which ensures compatibility between SFP's from different manufacturers.&#160;</p>
+                        <p>Part of this standard ensures that all vendors provide machine readable information regarding the SFP's capabilities. This information is called the Vital Product Data (VPD) and includes the SFP manufacturer, supported link rates, optical wavelength, etc.&#160;</p>
+                        <p>The <i>Integris System</i> can read this information and present it to the user so they can verify that the SFP is suitable for the application in which it is being used.                 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Yellow-Highlight">Integris 2000 Test Ports</h3>
+        <p>The Integris chassis has two test ports, and Integris 2000 can use either or both of them. This allows two radio heads to be tested simultaneously. </p>
+        <p>&#160;</p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/i2k_Test-Ports-noback.png" MadCap:mediastyle="@media print { height: auto;width: 350px; }" style="margin-top: 10px;margin-bottom: 10px;height: auto;width: 250px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="ports"></a> <i>Integris 2000</i> test ports. Port 1 is to the left</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/Laptop &amp; 2x cabling-noback.png" MadCap:mediastyle="@media print { height: auto;width: 350px; }" style="margin-top: 10px;margin-bottom: 10px;height: auto;width: 350px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="conn"></a>Connecting <i>Integris 2000</i> to two radio heads</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>&#160;</h3>
+        <h3 class="Yellow-Highlight">Radio Head Installation Testing &amp;&#160;Monitoring</h3>
+        <p>&#160;</p>
+        <p> To test or monitor a radio head installation  connect the Integris system in place of the BBU as described below.</p>
+        <ol>
+            <li>If the radio head is already cabled to a BBU/eNB, locate the  cable going to the radio head to be tested, then disconnect it from the SFP in the BBU/eNB (See
+			 <MadCap:xref href="#rem">Removing the cable from the the BBU/eNB</MadCap:xref>)<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/InfoBoxStyle01.css');" class="TableStyle-InfoBoxStyle01" cellspacing="0"><col class="TableStyle-InfoBoxStyle01-Column-Column1" /><tbody><tr class="TableStyle-InfoBoxStyle01-Body-Body1"><td class="TableStyle-InfoBoxStyle01-BodyA-Column1-Body1"><p><b>Information:</b> If you have any doubt that you have the correct SFP&#160;in the Integris 2000 test port, remove the SFP from the BBU/eNB port and use that. This will ensure the correct specification SFP is used for testing</p></td></tr></tbody></table><p>&#160;</p><table style="width: 100%;" class="FigureTable"><col /><tbody><tr><td style="text-align: center;"><img src="../Resources/Images/IMG_0499.jpg" MadCap:mediastyle="@media print { height: auto;width: 350px; }" style="margin-top: 10px;margin-bottom: 10px;height: auto;width: 250px;" /></td></tr><tr><td><p class="FigNum01" style="text-align: center;"><a name="rem"></a>Removing the cable from the the BBU/eNB</p><p class="FigNum01" style="text-align: center;">&#160;</p></td></tr></tbody></table></li>
+            <li>
+                <p>Plug the cable you took from the radio head into an <i>Integris</i> test port (See <MadCap:xref href="#port1">Integris 2000 Test Ports</MadCap:xref>)</p>
+                <p>&#160;</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;">
+                    <col />
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center;">
+                                <img src="../Resources/Images/Connecting_for_RRH_Tests.jpg" MadCap:mediastyle="@media print { height: auto;width: 200px; }" style="clear: both;vertical-align: text-top;mc-float: center;height: auto;width: 250px;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="FigNum01" style="text-align: center;"><a name="port1"></a>Integris 2000 Test Ports (port 1
+at left)</p>
+                                <p class="FigNum01" style="text-align: center;">&#160;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <p>Run the <b>Install</b> test sequence. (See also
+			<MadCap:xref href="f2a.Running the Install Test.htm">Installation Testing</MadCap:xref>)</p>
+            </li>
+        </ol>
+        <h3 class="Yellow-Highlight">Displaying RRH &amp; eNB Power Graphs using a Passive Tap</h3>
+        <ol>
+            <li>If a passive tap is already installed in the CPRI link, skip to step 5 (See <MadCap:xref href="#Connect_Tap">Connect Investigator 2000 to a passive tap</MadCap:xref>)</li>
+            <li>Lock down the sector to be tested</li>
+            <li>Insert a passive tap (we recommend you connect the RRH to port A and the BBU to port B)</li>
+            <li>Unlock the sector</li>
+            <li>
+                <p>Connect Integris 2000 to the passive tap as follows:</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>To see the uplink, connect the <i>A</i> side of the tap's <i>AB</i> port to the RX of
+					 Integris port 1</li>
+                    <li>To see the downlink, connect the <i>B</i> side of the tap's <i>AB</i> port to the RX
+					 of Integris port 2 (See
+						
+						<MadCap:xref href="#Connect_Tap">Connect Investigator 2000 to a passive tap</MadCap:xref> 
+						)</li>
+                </ol>
+            </li>
+        </ol>
+        <table style="width: 100%;margin-left: auto;margin-right: auto;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/RRH BBU passive tap-noback.png" MadCap:mediastyle="@media print { height: auto;width: 350px; }" style="clear: both;vertical-align: text-top;mc-float: center;height: auto;width: 350px;margin-top: 10px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="Connect_Tap"></a>Connect Investigator 2000 to a passive tap</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr style="height: -464px;">
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/2k--tap-connection01-sml.jpg" MadCap:mediastyle="@media print { height: auto;width: 300px; }" style="clear: both;vertical-align: text-top;mc-float: center;height: auto;width: 300px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="Connect_SFP"></a>Connect the tap's AB port to the <i>Integris 2000 test port</i> RX sockets (generally marked with an 'in' arrow)</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Yellow-Highlight">SFP&#160;&amp; Cable Testing</h3>
+        <p>You can test an SFP or cable by running any of the installation tests and examining the <i>Local SFP</i> and <i>Physical Layer</i> results.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/i2k-V4-Local-SFP-Results.png" MadCap:mediastyle="@media print { height: auto;width: 250px; }" style="clear: both;vertical-align: text-top;mc-float: center;height: auto;width: 250px;margin-bottom: 10px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="sfp-res"></a>Local SFP &amp; Physical Layer results</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>For intermittent faults you can run the test in 'Monitor' mode to see how the SFP or cable performs over time.</p>
+        <p MadCap:conditions="Default.Screen">(See <MadCap:xref href="f5.Monitor.htm">Monitor Mode</MadCap:xref>)</p>
+        <ol>
+            <li>Remove the SFP&#160;that is fitted to an Integris test port  and replace it with the SFP to be tested</li>
+            <li> Insert a cable into the SFP (See <MadCap:xref href="#sfp">Inserting an SFP for testing</MadCap:xref>) and place a loopback at the far end (See <MadCap:xref href="#Lbck">Loopback Connection</MadCap:xref>)</li>
+            <li>Run an <b>Install</b>&#160;test sequence.</li>
+        </ol>
+        <p>(See also 
+            <MadCap:xref href="f2b.Troubleshooting.htm">Troubleshooting a RAN Installation</MadCap:xref>)</p>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+            <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">
+                        <img src="../Resources/Images/Connecting_for_SFP_Tests.jpg" MadCap:mediastyle="@media print { height: auto;width: 250px; }" style="clear: both;vertical-align: text-top;mc-float: center;height: auto;width: 250px;" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01" style="text-align: center;"><a name="sfp"></a>Inserting an SFP for testing</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center;">&#160;</p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../Resources/Images/Generic/Laptop loopback setup-NoBackg.jpg" style="height: auto;width: 500px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" style="text-align: center;"><a name="Lbck"></a>Loopback Connection</p>
+                        <p class="FigNum01" style="text-align: center;">&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

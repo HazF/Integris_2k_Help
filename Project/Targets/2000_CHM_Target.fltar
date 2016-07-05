@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Integris 2000 Help"
+  Type="HtmlHelp"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/2000_CHM.fltoc"
+  ConditionTagExpression="include[Default.Screen] exclude[Default.Print or Default.QSG] "
+  Medium="non-print"
+  Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn"
+  OutputFile="Integris 2000 Help-20006"
+  conditions="Default.Screen">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

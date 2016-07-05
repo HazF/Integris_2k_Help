@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1870" MadCap:lastWidth="1172">
+    <head>
+        <link href="../Resources/Table Stylesheets/ShadedRowStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Table Stylesheets/ShadedRowStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Table Stylesheets/ShadedRowStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Table Stylesheets/InfoBoxStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Table Stylesheets/NoteBoxStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" />&#160;</head>
+    <body>
+        <h2 class="AA_h2_ChandPara" MadCap:conditions="Default.Print">Installation Test Setup</h2>
+        <h2 class="AA_Online_H2" MadCap:conditions="Default.Screen">Pre-test Setup</h2>
+        <table style="width: 100%;border-spacing: 2px 10px;margin-left: auto;margin-right: auto;">
+            <col style="width: 90pt;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td><b style="font-size: 11pt;">Location</b>
+                    </td>
+                    <td style="font-size: 10pt;">&#160;</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt">GUI or Keyboard</td>
+                    <td style="font-size: 10pt;">Test Config icon at the top of the screen</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt;">Classic menu</td>
+                    <td style="font-size: 10pt;"><b>Emulate &gt; Loadconfig</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size: 10pt">Modern menu
+                    </td>
+                    <td style="font-size: 10pt;"><b>Emulate &gt; Load Config</b>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The Integris 2000 <i>Install</i> tests consist of a sequence  that initializes the link and Remote Radio Head (RRH), then verifies that the link is capable of reliably supporting CPRI traffic at the current speed.</p>
+        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Click here to see more notes and information on radio head testing: <img src="../Resources/Images/DownArrowYellow-sml02.png" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+                    <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                            <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1">
+                                <p><b>Note:</b> Radio Head testing includes checking for a  response from the radio head unit. If a simple loop-back is connected then the Radio Head tests will detect this and fail the test (shown as a red '<span style="font-weight: bold; color: #ff4500; font-size: 12pt;">X</span>').</p>
+                                <p>If you want to self-test the <i>Integris</i> system with a loop-back connector then select the <b>Selftest</b> configuration file before testing.                   </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/InfoBoxStyle01.css');" class="TableStyle-InfoBoxStyle01" cellspacing="0">
+                    <col class="TableStyle-InfoBoxStyle01-Column-Column1" />
+                    <tbody>
+                        <tr class="TableStyle-InfoBoxStyle01-Body-Body1">
+                            <td class="TableStyle-InfoBoxStyle01-BodyA-Column1-Body1">
+                                <p><b>Information:</b> For some manufacturer's equipment, Install tests return inventory and metrics like VSWR, Transmit power and RSSI. They can also include enhanced inventory listing  and firmware levels.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+            <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                    <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>Note:</b> Before testing you will need the following information:</p>
+                        <ul>
+                            <li>The correct configuration file for the manufacturer and the communications standard being used (e.g. Lucent LTE)</li>
+                            <li>The CPRI Link Rate, sometimes referred to as Link Speed</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The <i>Status Pane</i> to the left of the screen expands during Installation tests to give you more control options. (See <MadCap:xref href="#SPane"> Status Pane</MadCap:xref>)</p>
+        <p>&#160;</p>
+        <p>More information on Link Status Reports is given in <MadCap:xref href="#st">Integris Link State Reports.</MadCap:xref> below.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-ShadedRowStyle01" style="mc-table-style: url('../Resources/Table Stylesheets/ShadedRowStyle01.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col style="width: 20%;" class="TableStyle-ShadedRowStyle01-Column-Column1" />
+            <col class="TableStyle-ShadedRowStyle01-Column-Column1" />
+            <col class="TableStyle-ShadedRowStyle01-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-ShadedRowStyle01-Head-Header1">
+                    <th class="TableStyle-ShadedRowStyle01-HeadE-Column1-Header1">Menu Item</th>
+                    <th class="TableStyle-ShadedRowStyle01-HeadE-Column1-Header1">Description</th>
+                    <th class="TableStyle-ShadedRowStyle01-HeadD-Column1-Header1">&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1"><b>Link Status:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">displays the current link Status. (See <MadCap:xref href="#st">Integris Link State Reports</MadCap:xref>)</td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyD-Column1-Body1" rowspan="10">
+                        <p class="FigNum01">
+                            <img src="../Resources/Images/V4-StatusPane-forInstallTests.png" MadCap:mediastyle="@media print { width: auto;height: 300px; }" style="vertical-align: top;text-align: center;clear: none;float: none;width: auto;margin-left: 0px;margin-right: 0px;margin-top: 20px;margin-bottom: 0px;height: 350px;" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2"><b>Link Rate:</b>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">Opens a drop-down list for link rate selection (See <MadCap:xref href="c1.Set Link Rate.htm">Setting the Link Rate</MadCap:xref>)</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1"><b>Max AxC:</b>
+                    </td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">This sets the maximum number of antennas that will be polled during the installation test.&gt;When set to Auto Integris 2000 polls all available antennas and reports their data. You can also limit the number of antennas that Integris 2000 polls by setting a value between 1 and 4. This can be useful, for example, when an antenna is temporarily removed or shut down.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2"><b>Freq Disp:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">Allows you to choose between displaying the channel number or frequency display for the transmitter and receiver.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1"><b>Tx Freq/Chan:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">The current transmit frequency or channel as selected above. This is set by the configuration file.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2"><b>Rx Freq/Chan:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">The current transmit frequency or channel as selected above. This is set by the configuration file.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1"><b>Tx Power:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">Displays the transmitter power output.&#160;</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2"><b>BW:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body2">Displays the current signal bandwidth. This is set by the configuration file.&#160;</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body1">
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1"><b>OCNS:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyE-Column1-Body1">Applies Orthogonal Channel Noise Simulation (OCNS) to simulate  user load on the downlink.</td>
+                </tr>
+                <tr class="TableStyle-ShadedRowStyle01-Body-Body2">
+                    <td class="TableStyle-ShadedRowStyle01-BodyB-Column1-Body2"><b>PCI:</b> <![CDATA[ ]]></td>
+                    <td class="TableStyle-ShadedRowStyle01-BodyB-Column1-Body2">Allows you to set the Physical Cell identification for the cell.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>  <![CDATA[ ]]></p>
+        <p>&#160;</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/i2k Link Status Report.flsnp" />
+    </body>
+</html>

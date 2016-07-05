@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="836" MadCap:lastWidth="624">
+    <head>
+        <link href="../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Connecting Up</title>
+    </head>
+    <body>
+        <h2 class="AA_h2_ChandPara" MadCap:conditions="Default.Print" MadCap:autonum="1.1. ">Connecting to the RAN</h2>
+        <h2 class="AA_Online_H2" MadCap:conditions="Default.Screen">Connecting to the RAN</h2>
+        <p><i>Integris 2000</i> is designed to exercise the radio head along with its associated cabling and connectors, so must be connected in place of a BBU.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/NoteBoxStyle01.css');" class="TableStyle-NoteBoxStyle01" cellspacing="0">
+            <col class="TableStyle-NoteBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-NoteBoxStyle01-Body-Body1">
+                    <td class="TableStyle-NoteBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>NOTE:</b> you <i>MUST</i> install exactly the same SFPs  into the Integris test port  as used in RRH &amp; BBU, and connect using an identical cable type.                  </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/Table Stylesheets/InfoBoxStyle01.css');" class="TableStyle-InfoBoxStyle01" cellspacing="0">
+            <col class="TableStyle-InfoBoxStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-InfoBoxStyle01-Body-Body1">
+                    <td class="TableStyle-InfoBoxStyle01-BodyA-Column1-Body1">
+                        <p><b>Information:</b> <i>Integris</i> ports use Small Form Factor Pluggable (SFP) devices to provide signal conversion of the optical signal on the cable to the electrical signals used inside the Integris system. SFP's are available for many types of physical connection, such as single mode or multi-mode optical cabling, and the specification of SFP's is controlled by a standard which ensures compatibility between SFP's from different manufacturers.&#160;</p>
+                        <p>Part of this standard ensures that all vendors provide machine readable information regarding the SFP's capabilities. This information is called the Vital Product Data (VPD) and includes the SFP manufacturer, supported link rates, optical wavelength, etc.&#160;</p>
+                        <p>The <i>Integris System</i> can read this information and present it to the user so they can verify that the SFP is suitable for the application in which it is being used.                 </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Integris 2000 Test Ports</h3>
+        <p>The Integris system has two test ports, and Integris 2000 can use either or both of them. This allows two radio heads to be tested simultaneously. <MadCap:xref href="#ports" class="ListOfPageNumber">(See  Fig 1.1 )</MadCap:xref></p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" MadCap:autonum=" Fig 1.1 "><a name="ports"></a> <i>Integris 2000</i> test ports. Port 1 is to the left</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <table style="width: 100%;" class="FigureTable">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="FigNum01" MadCap:autonum=" Fig 1.2 "><a name="conn"></a>Connecting <i>Integris 2000</i> to an RRH</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Radio Head Installation Testing &amp;&#160;Monitoring</h3>
+        <p> To test or monitor a radio head installation:</p>
+        <ol>
+            <li> connect the Integris system in place of the BBU <MadCap:xref href="#conn" class="ListOfPageNumber">(See  Fig 1.2 )</MadCap:xref></li>
+            <li>Plug one end of the cable into the RRH and the other end into the Integris test port. </li>
+            <li>Locate the cable connecting the RRH to the BBU, then disconnect it from the SFP in the BBU</li>
+            <li>Remove the SFP from the BBU port where the cable to the RRH was previously connected. This will ensure the correct SFP type is used for testing.</li>
+            <li>Place this SFP into Integris test port 1 or 2</li>
+            <li>
+                <p>Connect the cable from the RRH to the SFP in port 1 of the Integris System. 
+                
+                    <MadCap:xref href="#port1" class="ListOfPageNumber"><MadCap:xref href="#port1" class="ListOfPageNumber">(See  Fig 1.2 )</MadCap:xref></MadCap:xref> <![CDATA[ ]]></p>
+            </li>
+            <li>Run the <b>Install</b> test sequence</li>
+        </ol>
+        <p MadCap:conditions="Default.Print">
+            <MadCap:xref href="f2b.Troubleshooting.htm" class="IndexPageNumber">See "Troubleshooting a RAN Installation", page 1</MadCap:xref>
+        </p>
+        <p MadCap:conditions="Default.Screen">See 
+            <MadCap:xref href="f2b.Troubleshooting.htm">Troubleshooting a RAN Installation</MadCap:xref></p>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+            <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01" MadCap:autonum=" Fig 1.3 "><a name="port1"></a>Integris 2000 Test Ports (port 1
+at left)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Cable Testing</h3>
+        <ol>
+            <li>Connect one end of the duplex cable to an Integris test port and fit a loopback to the other end of the cable 
+			<MadCap:xref href="#Lbck" class="ListOfPageNumber">(See  Fig 1.3 )</MadCap:xref>.</li>
+            <li>Run a <b>Cable</b> test sequence</li>
+        </ol>
+        <p MadCap:conditions="Default.Print">
+            <MadCap:xref href="f2b.Troubleshooting.htm" class="IndexPageNumber">See "Troubleshooting a RAN Installation", page 1</MadCap:xref>
+        </p>
+        <p MadCap:conditions="Default.Screen">See 
+            <MadCap:xref href="f2b.Troubleshooting.htm">Troubleshooting a RAN Installation</MadCap:xref></p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+            <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01" MadCap:autonum=" Fig 1.4 "><a name="Lbck"></a>Loopback Connection</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>SFP&#160;Testing</h3>
+        <ol>
+            <li>Remove the SFP&#160;that is fitted to an Integris test port  and replace it with the SFP to be tested <MadCap:xref href="#sfp" class="ListOfPageNumber">(See  Fig 1.4 )</MadCap:xref></li>
+            <li> Insert a cable into the SFP and place a loopback at the far end <MadCap:xref href="#Lbck" class="ListOfPageNumber">(See  Fig 1.3 )</MadCap:xref></li>
+            <li>Run the <i style="font-weight: bold; font-style: normal;">Local SFP</i>&#160;test sequence.</li>
+        </ol>
+        <p MadCap:conditions="Default.Print">
+            <MadCap:xref href="f2b.Troubleshooting.htm" class="IndexPageNumber">See "Troubleshooting a RAN Installation", page 1</MadCap:xref>
+        </p>
+        <p MadCap:conditions="Default.Screen">See 
+            <MadCap:xref href="f2b.Troubleshooting.htm">Troubleshooting a RAN Installation</MadCap:xref></p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/Table Stylesheets/Image&amp;LabelStyle01.css');" class="TableStyle-Image_&amp;_LabelStyle01" cellspacing="0">
+            <col class="TableStyle-Image_&amp;_LabelStyle01-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td style="text-align: center;" class="TableStyle-Image_&amp;_LabelStyle01-BodyD-Column1-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Image_&amp;_LabelStyle01-Body-Body1">
+                    <td class="TableStyle-Image_&amp;_LabelStyle01-BodyA-Column1-Body1">
+                        <p class="FigNum01" MadCap:autonum=" Fig 1.5 "><a name="sfp"></a>Inserting an SFP for testing</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
