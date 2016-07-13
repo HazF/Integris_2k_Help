@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultAliasFile fileTags="AuthorFileTags.Haz Fairweather">
-    <Map Name="NEW38" Link="/Content/2000-Help/a.Help Introduction.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW39" Link="/Content/2000-Help/b1.Starting &amp; Closing Integris 2000.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW40" Link="/Content/2000-Help/b2.Classic &amp; Modern Menus.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW41" Link="/Content/2000-Help/b3.Preferences.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW42" Link="/Content/2000-Help/b4.Connecting_2k.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW43" Link="/Content/2000-Help/c0.Status Pane.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW44" Link="/Content/2000-Help/c1.Set Link Rate.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW45" Link="/Content/2000-Help/c2.Load Config File.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW46" Link="/Content/2000-Help/c3.Set Test Port.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW47" Link="/Content/2000-Help/c4.SFP Info.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW48" Link="/Content/2000-Help/c5a.Help.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW49" Link="/Content/2000-Help/c5b.Upload Logs.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW50" Link="/Content/2000-Help/c6.About.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW51" Link="/Content/2000-Help/c7.Reset.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW52" Link="/Content/2000-Help/d1.Screen Profiles.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW53" Link="/Content/2000-Help/d2.Multi-View.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW54" Link="/Content/2000-Help/f0.Pre-Test Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW55" Link="/Content/2000-Help/z.OCNS.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW56" Link="/Content/2000-Help/f2a.Running the Install Test.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW57" Link="/Content/2000-Help/f2b.Troubleshooting.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW58" Link="/Content/2000-Help/f5.Monitor.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW59" Link="/Content/2000-Help/f6.Reports.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW60" Link="/Content/2000-Help/G.Display Pwr Graphs.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW61" Link="/Content/2000-Help/G.Power Graph QSG.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW62" Link="/Content/2000-Help/g0a.Selecting a Graph Type.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW63" Link="/Content/2000-Help/g0b.Selecting a Graph Srce &amp; Map.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW64" Link="/Content/2000-Help/g1a.Spectrum Graph Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW65" Link="/Content/2000-Help/g1b.RealTime,Max,Min&amp;Avg.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW66" Link="/Content/2000-Help/g2a.Zoom.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW67" Link="/Content/2000-Help/g2b.Using Markers.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW68" Link="/Content/2000-Help/g2c.Positioning &amp; Snap Markers.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW69" Link="/Content/2000-Help/g2d.Marker_Table.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW71" Link="/Content/2000-Help/g4.Waterfall Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW72" Link="/Content/2000-Help/g5.Persistence Graph.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW73" Link="/Content/2000-Help/g6.Snapshot.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW74" Link="/Content/2000-Help/g7.Recording.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW77" Link="/Content/2000-Help/x1.Hot Keys.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
-    <Map Name="NEW78" Link="/Content/2000-Help/x3.Config File descriptions.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW38" Link="/Content/2000-HTML5-Help/a.Help Introduction.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW39" Link="/Content/2000-HTML5-Help/b1.Starting &amp; Closing Integris 2000.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW40" Link="/Content/2000-HTML5-Help/b2.Classic &amp; Modern Menus.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW41" Link="/Content/2000-HTML5-Help/b3.Preferences.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW42" Link="/Content/2000-HTML5-Help/b4.Connecting_2k.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW43" Link="/Content/2000-HTML5-Help/c0.Status Pane.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW44" Link="/Content/2000-HTML5-Help/c1.Set Link Rate.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW45" Link="/Content/2000-HTML5-Help/c2.Load Config File.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW46" Link="/Content/2000-HTML5-Help/c3.Set Test Port.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW47" Link="/Content/2000-HTML5-Help/c4.SFP Info.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW48" Link="/Content/2000-HTML5-Help/c5a.Help.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW49" Link="/Content/2000-HTML5-Help/c5b.Upload Logs.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW50" Link="/Content/2000-HTML5-Help/c6.About.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW51" Link="/Content/2000-HTML5-Help/c7.Reset.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW52" Link="/Content/2000-HTML5-Help/d1.Screen Profiles.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW53" Link="/Content/2000-HTML5-Help/d2.Multi-View.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW54" Link="/Content/2000-HTML5-Help/f0.Pre-Test Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW55" Link="/Content/2000-HTML5-Help/z.OCNS.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW56" Link="/Content/2000-HTML5-Help/f2a.Running the Install Test.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW57" Link="/Content/2000-HTML5-Help/f2b.Troubleshooting.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW58" Link="/Content/2000-HTML5-Help/f5.Monitor.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW59" Link="/Content/2000-HTML5-Help/f6.Reports.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW60" Link="/Content/2000-HTML5-Help/G.Display Pwr Graphs.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW61" Link="/Content/2000-HTML5-Help/G.Power Graph QSG.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW62" Link="/Content/2000-HTML5-Help/g0a.Selecting a Graph Type.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW63" Link="/Content/2000-HTML5-Help/g0b.Selecting a Graph Srce &amp; Map.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW64" Link="/Content/2000-HTML5-Help/g1a.Spectrum Graph Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW65" Link="/Content/2000-HTML5-Help/g1b.RealTime,Max,Min&amp;Avg.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW66" Link="/Content/2000-HTML5-Help/g2a.Zoom.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW67" Link="/Content/2000-HTML5-Help/g2b.Using Markers.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW68" Link="/Content/2000-HTML5-Help/g2c.Positioning &amp; Snap Markers.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW69" Link="/Content/2000-HTML5-Help/g2d.Marker_Table.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW71" Link="/Content/2000-HTML5-Help/g4.Waterfall Setup.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW72" Link="/Content/2000-HTML5-Help/g5.Persistence Graph.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW73" Link="/Content/2000-HTML5-Help/g6.Snapshot.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW74" Link="/Content/2000-HTML5-Help/g7.Recording.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW77" Link="/Content/2000-HTML5-Help/x1.Hot Keys.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
+    <Map Name="NEW78" Link="/Content/2000-HTML5-Help/x3.Config File descriptions.htm" Skin="/Project/Skins/Int_2000-CHM_Skin01.flskn" />
 </CatapultAliasFile>

@@ -5,120 +5,123 @@
   fileTags="AuthorFileTags.Haz Fairweather">
   <TocEntry
     Title="Install Tests"
-    Link="/Content/2000-Help/a.Help Introduction.htm">
+    Link="/Content/2000-HTML5-Help/a.Help Introduction.htm">
     <TocEntry
       Title="Starting &amp; Closing Integris 2000"
-      Link="/Content/2000-Help/b1.Starting &amp; Closing Integris 2000.htm" />
+      Link="/Content/2000-HTML5-Help/b1.Starting &amp; Closing Integris 2000.htm" />
     <TocEntry
       Title="Classic &amp; Modern Menus"
-      Link="/Content/2000-Help/b2.Classic &amp; Modern Menus.htm" />
+      Link="/Content/2000-HTML5-Help/b2.Classic &amp; Modern Menus.htm" />
     <TocEntry
       Title="Connecting Up"
-      Link="/Content/2000-Help/b4.Connecting_2k.htm" />
+      Link="/Content/2000-HTML5-Help/b4.Connecting_2k.htm" />
     <TocEntry
       Title="System Status Pane"
-      Link="/Content/2000-Help/c0.Status Pane.htm" />
+      Link="/Content/2000-HTML5-Help/c0.Status Pane.htm" />
     <TocEntry
       Title="Setting the Link Rate"
-      Link="/Content/2000-Help/c1.Set Link Rate.htm"></TocEntry>
+      Link="/Content/2000-HTML5-Help/c1.Set Link Rate.htm"></TocEntry>
     <TocEntry
       Title="Loading a Test Configuration File"
-      Link="/Content/2000-Help/c2.Load Config File.htm" />
+      Link="/Content/2000-HTML5-Help/c2.Load Config File.htm" />
     <TocEntry
       Title="Setting the Test Port"
-      Link="/Content/2000-Help/c3.Set Test Port.htm" />
+      Link="/Content/2000-HTML5-Help/c3.Set Test Port.htm" />
     <TocEntry
       Title="Viewing SFP Information"
-      Link="/Content/2000-Help/c4.SFP Info.htm" />
+      Link="/Content/2000-HTML5-Help/c4.SFP Info.htm" />
     <TocEntry
       Title="Uploading Debug Logs"
-      Link="/Content/2000-Help/c5b.Upload Logs.htm" />
+      Link="/Content/2000-HTML5-Help/c5b.Upload Logs.htm" />
     <TocEntry
       Title="Resetting Integris to Default Settings"
-      Link="/Content/2000-Help/c7.Reset.htm" />
+      Link="/Content/2000-HTML5-Help/c7.Reset.htm" />
     <TocEntry
       Title="Saving &amp; Loading Screen Profiles"
-      Link="/Content/2000-Help/d1.Screen Profiles.htm" />
+      Link="/Content/2000-HTML5-Help/d1.Screen Profiles.htm" />
     <TocEntry
       Title="Multiple Screen Views"
-      Link="/Content/2000-Help/d2.Multi-View.htm" />
+      Link="/Content/2000-HTML5-Help/d2.Multi-View.htm" />
     <TocEntry
       Title="Pre-Test Setup"
-      Link="/Content/2000-Help/f0.Pre-Test Setup.htm" />
+      Link="/Content/2000-HTML5-Help/f0.Pre-Test Setup.htm" />
     <TocEntry
       Title="Installation Testing"
-      Link="/Content/2000-Help/f2a.Running the Install Test.htm" />
+      Link="/Content/2000-HTML5-Help/f2a.Running the Install Test.htm" />
     <TocEntry
       Title="Post-Test Troubleshooting"
-      Link="/Content/2000-Help/f2b.Troubleshooting.htm" />
+      Link="/Content/2000-HTML5-Help/f2b.Troubleshooting.htm" />
     <TocEntry
       Title="Monitor Mode"
-      Link="/Content/2000-Help/f5.Monitor.htm" />
+      Link="/Content/2000-HTML5-Help/f5.Monitor.htm" />
     <TocEntry
       Title="Working with Test Reports"
-      Link="/Content/2000-Help/f6.Reports.htm" />
+      Link="/Content/2000-HTML5-Help/f6.Reports.htm" />
   </TocEntry>
   <TocEntry
     Title="Power Graphs"
-    Link="/Content/2000-Help/G.Display Pwr Graphs.htm">
+    Link="/Content/2000-HTML5-Help/G.Display Pwr Graphs.htm">
     <TocEntry
       Title="Displaying Power Graphs"
-      Link="/Content/2000-Help/G.Display Pwr Graphs.htm" />
+      Link="/Content/2000-HTML5-Help/G.Display Pwr Graphs.htm" />
     <TocEntry
       Title="Selecting a Graph Type"
-      Link="/Content/2000-Help/g0a.Selecting a Graph Type.htm" />
+      Link="/Content/2000-HTML5-Help/g0a.Selecting a Graph Type.htm" />
     <TocEntry
       Title="Graph Source &amp; Mappings"
-      Link="/Content/2000-Help/g0b.Selecting a Graph Srce &amp; Map.htm" />
+      Link="/Content/2000-HTML5-Help/g0b.Selecting a Graph Srce &amp; Map.htm" />
     <TocEntry
       Title="Spectrum Graph Configuration"
-      Link="/Content/2000-Help/g1a.Spectrum Graph Setup.htm" />
+      Link="/Content/2000-HTML5-Help/g1a.Spectrum Graph Setup.htm" />
     <TocEntry
       Title="Real Time, Max, Min &amp; Average Values"
-      Link="/Content/2000-Help/g1b.RealTime,Max,Min&amp;Avg.htm" />
+      Link="/Content/2000-HTML5-Help/g1b.RealTime,Max,Min&amp;Avg.htm" />
     <TocEntry
       Title="Zooming in to Areas of Interest"
-      Link="/Content/2000-Help/g2a.Zoom.htm" />
+      Link="/Content/2000-HTML5-Help/g2a.Zoom.htm" />
     <TocEntry
       Title="Using Markers"
-      Link="/Content/2000-Help/g2b.Using Markers.htm" />
+      Link="/Content/2000-HTML5-Help/g2b.Using Markers.htm" />
     <TocEntry
       Title="Positioning &amp; 'Snap' Markers"
-      Link="/Content/2000-Help/g2c.Positioning &amp; Snap Markers.htm" />
+      Link="/Content/2000-HTML5-Help/g2c.Positioning &amp; Snap Markers.htm" />
     <TocEntry
       Title="The Marker Table"
-      Link="/Content/2000-Help/g2d.Marker_Table.htm" />
+      Link="/Content/2000-HTML5-Help/g2d.Marker_Table.htm" />
     <TocEntry
       Title="Checking for Implied PIM"
-      Link="/Content/2000-Help/g3.Display PIM -WIP.htm" />
+      Link="/Content/2000-HTML5-Help/g3.Display PIM.htm" />
     <TocEntry
       Title="Waterfall Graph Setup"
-      Link="/Content/2000-Help/g4.Waterfall Setup.htm" />
+      Link="/Content/2000-HTML5-Help/g4.Waterfall Setup.htm" />
     <TocEntry
       Title="Persistence Graph Setup"
-      Link="/Content/2000-Help/g5.Persistence Graph.htm" />
+      Link="/Content/2000-HTML5-Help/g5.Persistence Graph.htm" />
     <TocEntry
       Title="Screen Snapshot"
-      Link="/Content/2000-Help/g6.Snapshot.htm" />
+      Link="/Content/2000-HTML5-Help/g6.Snapshot.htm" />
     <TocEntry
       Title="Recording Graphs"
-      Link="/Content/2000-Help/g7.Recording.htm" />
+      Link="/Content/2000-HTML5-Help/g7.Recording.htm" />
   </TocEntry>
   <TocEntry
     Title="Support"
     Link="/Content/01_Introduction Topics/e.Tech Support &amp; Warranty.htm">
     <TocEntry
+      Title="Windows Update Warning"
+      Link="/Content/01_Introduction Topics/b.Windows Update Warning.htm" />
+    <TocEntry
       Title="Configuration File Descriptions"
-      Link="/Content/2000-Help/x3.Config File descriptions.htm" />
+      Link="/Content/2000-HTML5-Help/x3.Config File descriptions.htm" />
     <TocEntry
       Title="Integris 2000 Hot Keys"
-      Link="/Content/2000-Help/x1.Hot Keys.htm" />
+      Link="/Content/2000-HTML5-Help/x1.Hot Keys.htm" />
     <TocEntry
       Title="Accessing Integris Help"
-      Link="/Content/2000-Help/c5a.Help.htm" />
+      Link="/Content/2000-HTML5-Help/c5a.Help.htm" />
     <TocEntry
       Title="Checking the Software Version"
-      Link="/Content/2000-Help/c6.About.htm" />
+      Link="/Content/2000-HTML5-Help/c6.About.htm" />
     <TocEntry
       Title="Technical Support"
       Link="/Content/01_Introduction Topics/e.Tech Support &amp; Warranty.htm" />

@@ -3,31 +3,26 @@
     <Map Name="NEW27" Link="/Content/01_Introduction Topics/i.Operating.htm" />
     <Map Name="NEW38" Link="/Content/03_Powering Up/a.System Setup.htm" />
     <Map Name="NEW39" Link="/Content/03_Powering Up/b.Power Up.htm" />
-    <Map Name="NEW45" Link="/Content/2000-Help/a.Help Introduction.htm" />
-    <Map Name="NEW46" Link="/Content/2000-Help/b4.Connecting_2k.htm" />
-    <Map Name="NEW47" Link="/Content/2000-Help/b1.Starting &amp; Closing Integris 2000.htm" />
-    <Map Name="NEW48" Link="/Content/2000-Help/z.Installation Test-(OLD).htm" />
-    <Map Name="NEW49" Link="/Content/2000-Help/f2b.Troubleshooting.htm" />
-    <Map Name="NEW50" Link="/Content/2000-Help/c1.Set Link Rate.htm" />
-    <Map Name="NEW51" Link="/Content/2000-Help/c2.Load Config File.htm" />
-    <Map Name="NEW52" Link="/Content/2000-Help/c4.SFP Info.htm" />
-    <Map Name="NEW53" Link="/Content/2000-Help/c7.Reset.htm" />
-    <Map Name="NEW54" Link="/Content/2000-Help/c5a.Help.htm" />
-    <Map Name="NEW55" Link="/Content/2000-Help/c6.About.htm" />
-    <Map Name="NEW56" Link="/Content/2000-Help/z-old.Tests-RRH-Obsolete.htm" />
-    <Map Name="NEW57" Link="/Content/2000-Help/z-old.Tests-Cable-Obsolete.htm" />
-    <Map Name="NEW58" Link="/Content/2000-Help/z.Tests-SFP.htm" />
-    <Map Name="NEW59" Link="/Content/2000-Help/f5.Monitor.htm" />
-    <Map Name="NEW60" Link="/Content/2000-Help/f6.Reports.htm" />
-    <Map Name="NEW61" Link="/Content/2000-Help/j.QSG Exercise.htm" />
-    <Map Name="NEW62" Link="/Content/2000-Help/x.APPENDICES----.htm" />
-    <Map Name="NEW63" Link="/Content/2000-Help/x1.Hot Keys.htm" />
-    <Map Name="NEW64" Link="/Content/2000-Help/x3.Config File descriptions.htm" />
-    <Map Name="NEW65" Link="/Content/2000-Help/z-old.BBU Emulation-old.htm" />
-    <Map Name="NEW66" Link="/Content/2000-Help/z-old.Tests-RRH.htm" />
-    <Map />
-    <Map />
-    <Map />
-    <Map />
-    <Map />
+    <Map Name="NEW45" Link="/Content/2000-HTML5-Help/a.Help Introduction.htm" />
+    <Map Name="NEW46" Link="/Content/2000-HTML5-Help/b4.Connecting_2k.htm" />
+    <Map Name="NEW47" Link="/Content/2000-HTML5-Help/b1.Starting &amp; Closing Integris 2000.htm" />
+    <Map Name="NEW48" Link="/Content/2000-HTML5-Help/z.Installation Test-(OLD).htm" />
+    <Map Name="NEW49" Link="/Content/2000-HTML5-Help/f2b.Troubleshooting.htm" />
+    <Map Name="NEW50" Link="/Content/2000-HTML5-Help/c1.Set Link Rate.htm" />
+    <Map Name="NEW51" Link="/Content/2000-HTML5-Help/c2.Load Config File.htm" />
+    <Map Name="NEW52" Link="/Content/2000-HTML5-Help/c4.SFP Info.htm" />
+    <Map Name="NEW53" Link="/Content/2000-HTML5-Help/c7.Reset.htm" />
+    <Map Name="NEW54" Link="/Content/2000-HTML5-Help/c5a.Help.htm" />
+    <Map Name="NEW55" Link="/Content/2000-HTML5-Help/c6.About.htm" />
+    <Map Name="NEW56" Link="/Content/2000-HTML5-Help/z-old.Tests-RRH-Obsolete.htm" />
+    <Map Name="NEW57" Link="/Content/2000-HTML5-Help/z-old.Tests-Cable-Obsolete.htm" />
+    <Map Name="NEW58" Link="/Content/2000-HTML5-Help/z.Tests-SFP.htm" />
+    <Map Name="NEW59" Link="/Content/2000-HTML5-Help/f5.Monitor.htm" />
+    <Map Name="NEW60" Link="/Content/2000-HTML5-Help/f6.Reports.htm" />
+    <Map Name="NEW61" Link="/Content/2000-HTML5-Help/j.QSG Exercise.htm" />
+    <Map Name="NEW62" Link="/Content/2000-HTML5-Help/x.APPENDICES----.htm" />
+    <Map Name="NEW63" Link="/Content/2000-HTML5-Help/x1.Hot Keys.htm" />
+    <Map Name="NEW64" Link="/Content/2000-HTML5-Help/x3.Config File descriptions.htm" />
+    <Map Name="NEW65" Link="/Content/2000-HTML5-Help/z-old.BBU Emulation-old.htm" />
+    <Map Name="NEW66" Link="/Content/2000-HTML5-Help/z-old.Tests-RRH.htm" />
 </CatapultAliasFile>
